@@ -17,6 +17,9 @@ using ASF.Services.Contracts;
 
 namespace ASF.Services.Http
 {
+
+    //Prueba GITHUB
+
     /// <summary>
     /// Category HTTP service controller.
     /// </summary>
@@ -131,6 +134,12 @@ namespace ASF.Services.Http
                 throw new HttpResponseException(httpError);
             }
         }
+    }
+
+    [RoutePrefix("rest/Client")]
+    public class ClientService : ApiController
+    {
+
     }
 }
 

@@ -11,8 +11,7 @@ namespace ASF.UI.WbSite.Areas.Category.Controllers
         // GET: Category/Category
         public ActionResult Index()
         {
-            var categorias = new UI.Process.CategoryProcess();
-            return View(categorias.SelectList());
+            return View();
         }
     }
 }

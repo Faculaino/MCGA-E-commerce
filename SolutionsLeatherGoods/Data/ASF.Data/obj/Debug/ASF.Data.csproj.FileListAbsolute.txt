@@ -1,5 +1,10 @@
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\bin\ASF.Data.dll
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\bin\ASF.Data.pdb
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Data\ASF.Data\obj\Debug\ASF.Data.csprojResolveAssemblyReference.cache
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Data\ASF.Data\obj\Debug\ASF.Data.dll
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Data\ASF.Data\obj\Debug\ASF.Data.pdb
+D:\MCGA-2017\01\SolutionsLeatherGoods\MCGA\bin\ASF.Data.dll
+D:\MCGA-2017\01\SolutionsLeatherGoods\MCGA\bin\ASF.Data.pdb
+D:\MCGA-2017\01\SolutionsLeatherGoods\MCGA\Data\ASF.Data\obj\Debug\ASF.Data.csprojResolveAssemblyReference.cache
+D:\MCGA-2017\01\SolutionsLeatherGoods\MCGA\Data\ASF.Data\obj\Debug\ASF.Data.dll
+D:\MCGA-2017\01\SolutionsLeatherGoods\MCGA\Data\ASF.Data\obj\Debug\ASF.Data.pdb
+C:\Users\facun\Desktop\SolutionsLeatherGoods\bin\ASF.Data.dll
+C:\Users\facun\Desktop\SolutionsLeatherGoods\bin\ASF.Data.pdb
+C:\Users\facun\Desktop\SolutionsLeatherGoods\Data\ASF.Data\obj\Debug\ASF.Data.csprojResolveAssemblyReference.cache
+C:\Users\facun\Desktop\SolutionsLeatherGoods\Data\ASF.Data\obj\Debug\ASF.Data.dll
+C:\Users\facun\Desktop\SolutionsLeatherGoods\Data\ASF.Data\obj\Debug\ASF.Data.pdb

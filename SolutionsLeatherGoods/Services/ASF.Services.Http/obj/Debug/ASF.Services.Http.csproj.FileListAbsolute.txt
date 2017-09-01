@@ -1,5 +1,11 @@
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\bin\ASF.Services.Http.dll
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\bin\ASF.Services.Http.pdb
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.csprojResolveAssemblyReference.cache
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.dll
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.pdb
+D:\MCGA-2017\01\SolutionsLeatherGoods\MCGA\bin\ASF.Services.Http.dll
+D:\MCGA-2017\01\SolutionsLeatherGoods\MCGA\bin\ASF.Services.Http.pdb
+D:\MCGA-2017\01\SolutionsLeatherGoods\MCGA\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.csprojResolveAssemblyReference.cache
+D:\MCGA-2017\01\SolutionsLeatherGoods\MCGA\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.dll
+D:\MCGA-2017\01\SolutionsLeatherGoods\MCGA\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.pdb
+C:\Users\facun\Desktop\SolutionsLeatherGoods\bin\ASF.Services.Http.dll.config
+C:\Users\facun\Desktop\SolutionsLeatherGoods\bin\ASF.Services.Http.dll
+C:\Users\facun\Desktop\SolutionsLeatherGoods\bin\ASF.Services.Http.pdb
+C:\Users\facun\Desktop\SolutionsLeatherGoods\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.csprojResolveAssemblyReference.cache
+C:\Users\facun\Desktop\SolutionsLeatherGoods\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.dll
+C:\Users\facun\Desktop\SolutionsLeatherGoods\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.pdb

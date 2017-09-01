@@ -1,4 +1,10 @@
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\bin\ASF.Entities.dll
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\bin\ASF.Entities.pdb
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Shared\ASF.Entities\obj\Debug\ASF.Entities.dll
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Shared\ASF.Entities\obj\Debug\ASF.Entities.pdb
+D:\MCGA-2017\01\SolutionsLeatherGoods\MCGA\bin\ASF.Entities.dll
+D:\MCGA-2017\01\SolutionsLeatherGoods\MCGA\bin\ASF.Entities.pdb
+D:\MCGA-2017\01\SolutionsLeatherGoods\MCGA\Shared\ASF.Entities\obj\Debug\ASF.Entities.csprojResolveAssemblyReference.cache
+D:\MCGA-2017\01\SolutionsLeatherGoods\MCGA\Shared\ASF.Entities\obj\Debug\ASF.Entities.dll
+D:\MCGA-2017\01\SolutionsLeatherGoods\MCGA\Shared\ASF.Entities\obj\Debug\ASF.Entities.pdb
+C:\Users\facun\Desktop\SolutionsLeatherGoods\bin\ASF.Entities.dll
+C:\Users\facun\Desktop\SolutionsLeatherGoods\bin\ASF.Entities.pdb
+C:\Users\facun\Desktop\SolutionsLeatherGoods\Shared\ASF.Entities\obj\Debug\ASF.Entities.csprojResolveAssemblyReference.cache
+C:\Users\facun\Desktop\SolutionsLeatherGoods\Shared\ASF.Entities\obj\Debug\ASF.Entities.dll
+C:\Users\facun\Desktop\SolutionsLeatherGoods\Shared\ASF.Entities\obj\Debug\ASF.Entities.pdb

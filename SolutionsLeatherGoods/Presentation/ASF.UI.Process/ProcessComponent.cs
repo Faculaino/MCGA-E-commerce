@@ -78,7 +78,7 @@ namespace ASF.UI.Process
                 var response = client.GetAsync(pathAndQuery).Result;
                 response.EnsureSuccessStatusCode();
 
-                //result = response.Content.ReadAsAsync<T>().Result; CAMBIO
+                result = response.Content.ReadAsAsync<T>().Result;
             }
 
             return result;
@@ -92,8 +92,8 @@ namespace ASF.UI.Process
             {
                 client.BaseAddress = new Uri(ConfigurationManager.AppSettings["serviceUrl"]);
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(mediaType));
-                //var response = client.PostAsJsonAsync(pathAndQuery, value).Result; CAMBIO
-                //response.EnsureSuccessStatusCode(); CAMBIO
+                var response = client.PostAsJsonAsync(pathAndQuery, value).Result;
+                response.EnsureSuccessStatusCode();
                 return value;
 
             }
