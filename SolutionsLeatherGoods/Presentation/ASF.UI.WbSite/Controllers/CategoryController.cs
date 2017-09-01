@@ -1,4 +1,4 @@
-﻿using ASF.UI.Process;
+﻿using ASF.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,8 +12,24 @@ namespace ASF.UI.WbSite.Controllers
         // GET: Category
         public ActionResult Index()
         {
-            var cp = new CategoryProcess();
-            return View(cp.SelectList());
+            var categoryProcess = new UI.Process.CategoryProcess();
+            return View(categoryProcess.SelectList());
         }
+
+        [HttpPost]
+        public ActionResult Create(Category nuevaCategoria)
+        {
+            var categoryProcess = new UI.Process.CategoryProcess();
+            categoryProcess.insert(nuevaCategoria);
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+
     }
 }

@@ -8,3 +8,8 @@ C:\Users\facun\Desktop\SolutionsLeatherGoods\bin\ASF.Data.pdb
 C:\Users\facun\Desktop\SolutionsLeatherGoods\Data\ASF.Data\obj\Debug\ASF.Data.csprojResolveAssemblyReference.cache
 C:\Users\facun\Desktop\SolutionsLeatherGoods\Data\ASF.Data\obj\Debug\ASF.Data.dll
 C:\Users\facun\Desktop\SolutionsLeatherGoods\Data\ASF.Data\obj\Debug\ASF.Data.pdb
+C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\bin\ASF.Data.dll
+C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\bin\ASF.Data.pdb
+C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Data\ASF.Data\obj\Debug\ASF.Data.csprojResolveAssemblyReference.cache
+C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Data\ASF.Data\obj\Debug\ASF.Data.dll
+C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Data\ASF.Data\obj\Debug\ASF.Data.pdb
