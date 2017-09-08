@@ -30,6 +30,22 @@ namespace ASF.UI.WbSite.Controllers
             return View();
         }
 
+        [HttpPost]
+        public ActionResult Search(Category categoria)
+        {
+            var categoryProcess = new UI.Process.CategoryProcess();
+            return View(categoryProcess.SearchByID(categoria));
+            
+        }
+
+        [HttpGet]
+        public ActionResult Search()
+        {
+            return View();
+
+        }
+
+
 
     }
 }
