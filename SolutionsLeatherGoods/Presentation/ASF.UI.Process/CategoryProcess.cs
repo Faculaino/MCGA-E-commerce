@@ -29,5 +29,11 @@ namespace ASF.UI.Process
         {
             ProcessComponent.HttpPost<Category>("rest/Category/Add", categoria, MediaType.Json);
         }
+
+        public List<Category> SearchByID(Category categoria)
+        {
+            var response = HttpPost<Category>("rest/Category/Find", categoria, MediaType.Json);
+            return null;
+        }
     }
 }
