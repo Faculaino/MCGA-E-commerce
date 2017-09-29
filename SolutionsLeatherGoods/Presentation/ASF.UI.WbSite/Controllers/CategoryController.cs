@@ -20,7 +20,7 @@ namespace ASF.UI.WbSite.Controllers
         public ActionResult Create(Category nuevaCategoria)
         {
             var categoryProcess = new UI.Process.CategoryProcess();
-            categoryProcess.insert(nuevaCategoria);
+            categoryProcess.insertCategory(nuevaCategoria);
             return RedirectToAction("Index");
         }
 
@@ -30,13 +30,13 @@ namespace ASF.UI.WbSite.Controllers
             return View();
         }
 
-        [HttpPost]
-        public ActionResult Search(Category categoria)
-        {
-            var categoryProcess = new UI.Process.CategoryProcess();
-            return View(categoryProcess.SearchByID(categoria));
+        //[HttpPost]
+        //public ActionResult Search(Category categoria)
+        //{
+        //    var categoryProcess = new UI.Process.CategoryProcess();
+        //    return View(categoryProcess.findCategory(categoria));
             
-        }
+        //}
 
         [HttpGet]
         public ActionResult Search()

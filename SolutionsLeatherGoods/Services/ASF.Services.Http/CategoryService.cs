@@ -17,9 +17,6 @@ using ASF.Services.Contracts;
 
 namespace ASF.Services.Http
 {
-
-    //Prueba GITHUB
-
     /// <summary>
     /// Category HTTP service controller.
     /// </summary>
@@ -32,6 +29,7 @@ namespace ASF.Services.Http
         {
             try
             {
+                //instancia de la business
                 var bc = new CategoryBusiness();
                 return bc.Add(category);
             }
@@ -55,7 +53,7 @@ namespace ASF.Services.Http
             {
                 var response = new AllResponse();
                 var bc = new CategoryBusiness();
-                response.Result = bc.All();
+                response.ResultCategory = bc.All();
                 return response;
             }
             catch (Exception ex)
@@ -69,8 +67,8 @@ namespace ASF.Services.Http
                 throw new HttpResponseException(httpError);
             }
         }
-
-        [HttpPut]
+        //antes era [HttpPut]
+        [HttpPost]
         [Route("Edit")]
         public void Edit(Category category)
         {
@@ -92,14 +90,14 @@ namespace ASF.Services.Http
         }
 
         [HttpGet]
-        [Route("Find/{id}")]
+        [Route("Find")]
         public FindResponse Find(int id)
         {
             try
             {
                 var response = new FindResponse();
                 var bc = new CategoryBusiness();
-                response.Result = bc.Find(id);
+                response.ResultCategory = bc.Find(id);
                 return response;
             }
             catch (Exception ex)
@@ -134,12 +132,6 @@ namespace ASF.Services.Http
                 throw new HttpResponseException(httpError);
             }
         }
-    }
-
-    [RoutePrefix("rest/Client")]
-    public class ClientService : ApiController
-    {
-
     }
 }
 

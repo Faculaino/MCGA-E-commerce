@@ -14,12 +14,15 @@ using ASF.Entities;
 
 namespace ASF.Services.Contracts
 {
-    
+
     [DataContract]
     public class FindResponse
     {
         [DataMember]
-        public Category Result { get; set; }
+        public Category ResultCategory { get; set; }
+
+        [DataMember]
+        public Country ResultCountry { get; set; }
     }
 }
 
