@@ -64,6 +64,7 @@
     <Compile Include="AuditBussines.cs" />
     <Compile Include="CategoryBusiness.cs" />
     <Compile Include="CountryBussines.cs" />
+    <Compile Include="DealerBussines.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

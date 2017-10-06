@@ -38,6 +38,5 @@ C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Shared\ASF.Framework\bin\Debug
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Shared\ASF.Framework\bin\Debug\HtmlSanitizationLibrary.xml
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Shared\ASF.Framework\bin\Debug\System.Net.Http.xml
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Shared\ASF.Framework\bin\Debug\System.Net.Http.WebRequest.xml
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Shared\ASF.Framework\obj\Debug\ASF.Framework.csprojResolveAssemblyReference.cache
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Shared\ASF.Framework\obj\Debug\ASF.Framework.dll
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Shared\ASF.Framework\obj\Debug\ASF.Framework.pdb

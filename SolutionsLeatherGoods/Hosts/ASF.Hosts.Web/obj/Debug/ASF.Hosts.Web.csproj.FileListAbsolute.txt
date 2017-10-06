@@ -92,7 +92,8 @@ C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\Micros
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\Microsoft.Extensions.PlatformAbstractions.dll
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\Microsoft.Extensions.Primitives.dll
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\Microsoft.Net.Http.Headers.dll
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\Newtonsoft.Json.dll
+C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\Swashbuckle.Core.dll
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\System.Buffers.dll
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\System.ComponentModel.Primitives.dll
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\System.ComponentModel.TypeConverter.dll
@@ -106,6 +107,7 @@ C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\System
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\System.Text.Encodings.Web.dll
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\System.Web.Http.dll
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\WebActivatorEx.dll
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\ASF.Business.pdb
@@ -137,7 +139,6 @@ C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\Micros
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\Microsoft.Extensions.PlatformAbstractions.xml
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\Microsoft.Extensions.Primitives.xml
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\Microsoft.Net.Http.Headers.xml
-C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\Newtonsoft.Json.xml
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\System.Diagnostics.DiagnosticSource.xml
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\System.Net.Http.xml
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\System.Net.Http.WebRequest.xml
