@@ -1,9 +1,11 @@
-﻿using ASF.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ASF.UI.Process;
+using ASF.Entities;
+using ASF.UI.WbSite.Services.Cache;
 
 namespace ASF.UI.WbSite.Controllers
 {
@@ -12,40 +14,82 @@ namespace ASF.UI.WbSite.Controllers
         // GET: Category
         public ActionResult Index()
         {
-            var categoryProcess = new UI.Process.CategoryProcess();
-            return View(categoryProcess.SelectList());
+            //var cp = new CategoryProcess();
+            var lista = DataCache.Instance.CategoryList();
+            //return View(cp.SelectList());
+            return View(lista);
         }
 
-        [HttpPost]
-        public ActionResult Create(Category nuevaCategoria)
-        {
-            var categoryProcess = new UI.Process.CategoryProcess();
-            categoryProcess.insertCategory(nuevaCategoria);
-            return RedirectToAction("Index");
-        }
-
-        [HttpGet]
         public ActionResult Create()
         {
             return View();
         }
-
-        //[HttpPost]
-        //public ActionResult Search(Category categoria)
-        //{
-        //    var categoryProcess = new UI.Process.CategoryProcess();
-        //    return View(categoryProcess.findCategory(categoria));
-            
-        //}
-
-        [HttpGet]
-        public ActionResult Search()
+        [HttpPost]
+        public ActionResult Create(Category categroy)
         {
-            return View();
-
+            try
+            {
+                var cp = new CategoryProcess();
+                cp.insertCategory(categroy);
+                DataCache.Instance.CategoryListRemove();
+            
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
         }
 
+        public ActionResult Details(int id)
+        {
+            var cp = new CategoryProcess();
 
+            return View(cp.findCategory(id));
+        }
 
+        public ActionResult Edit(int id)
+        {
+            var cp = new CategoryProcess();
+
+            return View(cp.findCategory(id));
+        }
+        [HttpPost]
+        public ActionResult Edit(Category category)
+        {
+            try
+            {
+                var cp = new CategoryProcess();
+                cp.editCategory(category);
+                DataCache.Instance.CategoryListRemove();
+                return RedirectToAction("Index");
+             }
+            catch
+            {
+                return View();
+            }
+        }
+
+        public ActionResult Delete(int id)
+        {
+            var cp = new CategoryProcess();
+
+            return View(cp.findCategory(id));
+        }
+        [HttpPost]
+        public ActionResult Delete(int id, Category category)
+        {
+            try
+            {
+                var cp = new CategoryProcess();
+                cp.deleteCategory(id);
+                DataCache.Instance.CategoryListRemove();
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
     }
 }

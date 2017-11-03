@@ -11,9 +11,13 @@ using ASF.Entities;
 
 namespace ASF.Data
 {
-    public class CountryDAC : DataAccessComponent
+   public class CountryDAC : DataAccessComponent
     {
-       
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Country"></param>
+        /// <returns></returns>
         public Country Create(Country Country)
         {
             const string sqlStatement = "INSERT INTO dbo.Country ([Name], [CreatedOn], [CreatedBy], [ChangedOn], [ChangedBy]) " +
@@ -34,6 +38,10 @@ namespace ASF.Data
             return Country;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Country"></param>
         public void UpdateById(Country Country)
         {
             const string sqlStatement = "UPDATE dbo.Country " +
@@ -58,7 +66,10 @@ namespace ASF.Data
             }
         }
 
-     
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
         public void DeleteById(int id)
         {
             const string sqlStatement = "DELETE dbo.Country WHERE [Id]=@Id ";
@@ -70,7 +81,11 @@ namespace ASF.Data
             }
         }
 
-     
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public Country SelectById(int id)
         {
             const string sqlStatement = "SELECT [Id], [Name], [CreatedOn], [CreatedBy], [ChangedOn], [ChangedBy] " +
@@ -90,7 +105,10 @@ namespace ASF.Data
             return Country;
         }
 
-      	
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>		
         public List<Country> Select()
         {
             // WARNING! Performance
@@ -112,7 +130,12 @@ namespace ASF.Data
 
             return result;
         }
-	
+
+        /// <summary>
+        /// Crea una nueva Categoría desde un Datareader.
+        /// </summary>
+        /// <param name="dr">Objeto DataReader.</param>
+        /// <returns>Retorna un objeto Categoria.</returns>		
         private static Country LoadCountry(IDataReader dr)
         {
             var Country = new Country

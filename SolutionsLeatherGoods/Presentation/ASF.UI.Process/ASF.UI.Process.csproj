@@ -64,9 +64,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CategoryProcess.cs" />
+    <Compile Include="ClientProcess.cs" />
     <Compile Include="CountryProcess.cs" />
     <Compile Include="DealerProcess.cs" />
     <Compile Include="MediaType.cs" />
+    <Compile Include="OrderProcess.cs" />
     <Compile Include="ProcessComponent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -79,6 +81,9 @@
       <Project>{5F7C08E8-891E-41C7-9E8D-E94B75222C0B}</Project>
       <Name>ASF.Entities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
