@@ -34,19 +34,14 @@ namespace ASF.UI.WbSite.Controllers
 
         // POST: Dealer/Create
         [HttpPost]
-        public ActionResult Create(Dealer Dealer)//, string Category, string Country)
+        public ActionResult Create(Dealer Dealer)
         {
             try
             {
                 var cp = new DealerProcess();
-
-                //Dealer.CategoryId = Int32.Parse( Category);
-                //Dealer.CountryId = Int32.Parse( Country);
-
                 cp.insertDealer(Dealer);
 
                 DataCache.Instance.DealerListRemove();
-
                 return RedirectToAction("Index");
             }
             catch

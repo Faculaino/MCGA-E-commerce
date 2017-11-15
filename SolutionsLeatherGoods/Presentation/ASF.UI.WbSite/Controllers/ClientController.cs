@@ -38,7 +38,7 @@ namespace ASF.UI.WbSite.Controllers
 
                 DataCache.Instance.ClientListRemove();
 
-                return RedirectToAction( "Index" );
+                return RedirectToAction("Index");
             }
             catch
             {

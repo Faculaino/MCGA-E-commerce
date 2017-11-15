@@ -14,9 +14,8 @@ namespace ASF.UI.WbSite.Controllers
         // GET: Country
         public ActionResult Index()
         {
-            //var cp = new CountryProcess();
+            
             var lista = DataCache.Instance.CountryList();
-            //return View(cp.SelectList());
             return View(lista);
         }
 
@@ -48,7 +47,6 @@ namespace ASF.UI.WbSite.Controllers
         public ActionResult Details(int id)
         {
             var cp = new CountryProcess();
-
             return View(cp.findCountry(id));
         }
 
@@ -56,7 +54,6 @@ namespace ASF.UI.WbSite.Controllers
         public ActionResult Edit(int id)
         {
             var cp = new CountryProcess();
-
             return View(cp.findCountry(id));
         }
 
