@@ -205,5 +205,6 @@ C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\HtmlSanitizationLibrary.xml
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\ASF.Services.Contracts.pdb
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Net.Http.Formatting.xml
+C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\obj\Debug\ASF.UI.WbSite.csprojResolveAssemblyReference.cache
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\obj\Debug\Boilerplate.Web.Mvc5.Sample.dll
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\obj\Debug\Boilerplate.Web.Mvc5.Sample.pdb

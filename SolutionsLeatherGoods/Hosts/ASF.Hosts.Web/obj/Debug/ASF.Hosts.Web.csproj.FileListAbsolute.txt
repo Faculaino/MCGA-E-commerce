@@ -61,5 +61,6 @@ C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\System
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\System.Web.Http.WebHost.xml
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\obj\Debug\ASF.Hosts.Web.csprojResolveAssemblyReference.cache
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\obj\Debug\ASF.Hosts.Web.dll
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Hosts\ASF.Hosts.Web\obj\Debug\ASF.Hosts.Web.pdb
