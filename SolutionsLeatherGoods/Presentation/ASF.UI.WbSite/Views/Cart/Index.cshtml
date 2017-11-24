@@ -1,4 +1,5 @@
-﻿@*@model IEnumerable<ASF.Entities.CartItem>*@
+﻿
+@*@model IEnumerable<ASF.Entities.CartItem>*@
 @{
     ViewBag.Title = "Cart item";
 }
@@ -24,6 +25,7 @@
     }
     @if (Session["Carrito"] != null)
     {
+        
         foreach (var item in Session["Carrito"] as List<ASF.Entities.CartItemDTO>)
         {
             total += (double)(item.Price * item.Quantity);
