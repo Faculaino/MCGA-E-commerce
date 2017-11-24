@@ -8,3 +8,8 @@ C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\bin\ASF.Business.pdb
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Business\ASF.Business\obj\Debug\ASF.Business.csprojResolveAssemblyReference.cache
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Business\ASF.Business\obj\Debug\ASF.Business.dll
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Business\ASF.Business\obj\Debug\ASF.Business.pdb
+C:\Users\facun\Desktop\MCGA-E-commerce\SolutionsLeatherGoods\bin\ASF.Business.dll
+C:\Users\facun\Desktop\MCGA-E-commerce\SolutionsLeatherGoods\bin\ASF.Business.pdb
+C:\Users\facun\Desktop\MCGA-E-commerce\SolutionsLeatherGoods\Business\ASF.Business\obj\Debug\ASF.Business.csprojResolveAssemblyReference.cache
+C:\Users\facun\Desktop\MCGA-E-commerce\SolutionsLeatherGoods\Business\ASF.Business\obj\Debug\ASF.Business.dll
+C:\Users\facun\Desktop\MCGA-E-commerce\SolutionsLeatherGoods\Business\ASF.Business\obj\Debug\ASF.Business.pdb

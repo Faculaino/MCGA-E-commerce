@@ -1,0 +1,113 @@
+﻿@model IEnumerable<ASF.Entities.Product>
+
+
+<meta name="viewport" content="width=device-width" />
+<h2>Lista de Productos</h2>
+
+<p>
+    @Html.ActionLink("Nuevo", "Create")
+</p>
+
+@foreach (var item in Model)
+{
+    {
+        var path = "~/Images/" + item.Title + ".jpg";
+
+        if (item.Title == null)
+        {
+
+        }
+        else
+        {
+            <div class="col-sm-3" style="border-radius:25px; border:2px solid #6382B1; width:170px;">
+
+                <div id="contenidoArticulo" style="text-align:center;">
+
+
+                    @*<img src="path" style="width:150px; height:150px;" />*@
+                    <img src="~/Images/Zapatos.jpg" style="width:150px; height:150px; margin-top:20px;" />
+                    <br />
+                    @Html.DisplayNameFor(model => model.Title) = @Html.DisplayFor(modelItem => item.Title)
+                    <br />
+                    @Html.DisplayNameFor(model => model.Price) = $ @Html.DisplayFor(modelItem => item.Price)
+                    <div>
+                        <a onclick="agregar(item.Id,item.Price,item.Title)" class="agregarProducto">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+          
+        }
+
+
+    }
+
+}
+<div style="clear:both;">
+
+</div>
+
+@section Scripts{
+    
+    
+<script src="~/Scripts/carrito.js"></script>
+    
+    }
+
+
+@*<table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DealerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantitySold)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AvgStars)
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DealerId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Image)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QuantitySold)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AvgStars)
+                </td>
+            </tr>
+
+
+
+
+        }
+
+    </table>*@
