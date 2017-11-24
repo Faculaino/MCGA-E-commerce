@@ -1,13 +1,20 @@
-﻿@*@model IEnumerable<ASF.Entities.CartItem>*@
+﻿
 @{
     ViewBag.Title = "Cart item";
 }
-@*@Html.Partial("_Espacio1")*@
-<h2>Lista de Productos</h2><br />
-
+@Html.Partial("_Espacio1")
+<h2>Cart item</h2><br />
+<p>
+    @*@Html.ActionLink("Create New", "Create")*@
+</p>
 <table class="table">
     <tr>
-     
+        @*<th>
+                @Html.DisplayName("Cart Id")
+            </th>
+            <th>
+                @Html.DisplayName("Product Id")
+            </th>*@
         <th>
             @Html.DisplayName("Title")
         </th>
@@ -17,6 +24,18 @@
         <th>
             @Html.DisplayName("Price")
         </th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.CreatedOn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChangedOn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChangedBy)
+            </th>*@
         <th></th>
     </tr>
     @{
@@ -38,7 +57,9 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Price)
                 </td>
+        
                 <td>
+                  
                     @Html.ActionLink("Delete", "Delete", new { id = item.ProductId })
                 </td>
             </tr>

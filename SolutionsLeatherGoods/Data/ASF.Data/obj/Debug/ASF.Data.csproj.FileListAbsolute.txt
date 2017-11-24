@@ -7,7 +7,3 @@ C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\bin\ASF.Data.dll
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\bin\ASF.Data.pdb
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Data\ASF.Data\obj\Debug\ASF.Data.dll
 C:\Users\facun\Desktop\MCGA\SolutionsLeatherGoods\Data\ASF.Data\obj\Debug\ASF.Data.pdb
-C:\Users\facun\Desktop\MCGA-E-commerce\SolutionsLeatherGoods\bin\ASF.Data.dll
-C:\Users\facun\Desktop\MCGA-E-commerce\SolutionsLeatherGoods\bin\ASF.Data.pdb
-C:\Users\facun\Desktop\MCGA-E-commerce\SolutionsLeatherGoods\Data\ASF.Data\obj\Debug\ASF.Data.dll
-C:\Users\facun\Desktop\MCGA-E-commerce\SolutionsLeatherGoods\Data\ASF.Data\obj\Debug\ASF.Data.pdb
