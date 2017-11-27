@@ -35,6 +35,9 @@ namespace ASF.Services.Contracts
 
         [DataMember]
         public Product ResultProduct { get; set; }
+
+        [DataMember]
+        public Cart ResultCart { get; set; }
     }
 }
 

@@ -9,12 +9,6 @@
 </p>
 <table class="table">
     <tr>
-        @*<th>
-                @Html.DisplayName("Cart Id")
-            </th>
-            <th>
-                @Html.DisplayName("Product Id")
-            </th>*@
         <th>
             @Html.DisplayName("Title")
         </th>
@@ -24,18 +18,6 @@
         <th>
             @Html.DisplayName("Price")
         </th>
-        @*<th>
-                @Html.DisplayNameFor(model => model.CreatedOn)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreatedBy)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ChangedOn)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ChangedBy)
-            </th>*@
         <th></th>
     </tr>
     @{
@@ -59,7 +41,6 @@
                 </td>
         
                 <td>
-                  
                     @Html.ActionLink("Delete", "Delete", new { id = item.ProductId })
                 </td>
             </tr>

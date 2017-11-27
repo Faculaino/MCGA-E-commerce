@@ -30,7 +30,7 @@ namespace ASF.UI.WbSite.Services.Cache
         public CacheService(MemoryCache memoryCache)
         {
             this.memoryCache = memoryCache;
-        }
+        } 
 
         #endregion
 
@@ -42,7 +42,7 @@ namespace ASF.UI.WbSite.Services.Cache
         public long Count
         {
             get { return this.memoryCache.GetCount(); }
-        }
+        } 
 
         #endregion
 

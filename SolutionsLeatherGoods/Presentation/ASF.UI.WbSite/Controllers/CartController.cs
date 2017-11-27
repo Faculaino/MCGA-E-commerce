@@ -62,6 +62,27 @@ namespace ASF.UI.WbSite.Controllers
             return -1;
         }
 
+        public ActionResult Delete(int id)
+        {
+            var cp = new CartProcess();
+
+            return View(cp.findCart(id));
+        }
+        [HttpPost]
+        public ActionResult Delete(int id, Cart cart)
+        {
+            try
+            {
+                var cp = new CartProcess();
+                cp.deteleCart(id);
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
 
     }
 }

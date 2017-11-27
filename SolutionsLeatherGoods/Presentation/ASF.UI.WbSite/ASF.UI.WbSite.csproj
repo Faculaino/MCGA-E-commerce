@@ -322,12 +322,14 @@
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\carousel.css" />
+    <Content Include="css\site.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Images\carousel1.jpg" />
     <Content Include="Images\carousel2.jpg" />
     <Content Include="Images\carousel3.jpg" />
+    <Content Include="Images\carrito.jpg" />
     <Content Include="Images\Cartera.jpg" />
     <Content Include="Images\Zapatos.jpg" />
     <Content Include="js\bootstrap.js" />
