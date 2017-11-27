@@ -14,9 +14,12 @@ namespace ASF.UI.WbSite.Controllers
         // GET: Country
         public ActionResult Index()
         {
+
+            //var lista = DataCache.Instance.CountryList();
+            //return View(lista);
+            var countryBS = new CountryProcess();
+            return View(countryBS.SelectList());
             
-            var lista = DataCache.Instance.CountryList();
-            return View(lista);
         }
 
         // GET: Country/Create

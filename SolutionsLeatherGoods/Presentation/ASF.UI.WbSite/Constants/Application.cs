@@ -2,7 +2,7 @@
 {
     public class Application
     {
-        public const string Name = "E-Commerce";
+        public const string Name = "Cascuer";
         public const string ShortName = "ASF";
     }
 }
