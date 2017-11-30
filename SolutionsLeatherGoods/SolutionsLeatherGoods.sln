@@ -37,7 +37,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASF.Test", "Tests\ASF.Test\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASF.Framework", "Shared\ASF.Framework\ASF.Framework.csproj", "{B07FAACC-7F82-4FDB-9BBB-666711EEF0F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASF.UI.WbSite", "Presentation\ASF.UI.WbSite\ASF.UI.WbSite.csproj", "{7F88E760-CFA0-4D95-ACD2-3CB76C9E4AE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASF.UI.WbSite", "..\MCGA-E-commerce\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\ASF.UI.WbSite.csproj", "{7F88E760-CFA0-4D95-ACD2-3CB76C9E4AE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

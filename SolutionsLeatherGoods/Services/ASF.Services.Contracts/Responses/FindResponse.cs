@@ -28,16 +28,16 @@ namespace ASF.Services.Contracts
         public Dealer ResultDealer { get; set; }
 
         [DataMember]
+        public DealerDTO ResultDealerDTO { get; set; }
+
+        [DataMember]
         public Order ResultOrder { get; set; }
 
         [DataMember]
         public Client ResultClient { get; set; }
 
         [DataMember]
-        public Product ResultProduct { get; set; }
-
-        [DataMember]
-        public Cart ResultCart { get; set; }
+        public  Product ResultProduct { get; set; }
     }
 }
 

@@ -57,13 +57,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CartService.cs" />
     <Compile Include="CategoryService.cs" />
     <Compile Include="ClientServices.cs" />
     <Compile Include="CountryServices.cs" />
     <Compile Include="DealerServices.cs" />
     <Compile Include="OrderServices.cs" />
-    <Compile Include="ProductService.cs" />
+    <Compile Include="ProductServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

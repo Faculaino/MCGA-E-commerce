@@ -1,8 +1,0 @@
-C:\Users\facun\Desktop\MCGA2017-master\bin\ASF.Entities.dll
-C:\Users\facun\Desktop\MCGA2017-master\bin\ASF.Entities.pdb
-C:\Users\facun\Desktop\MCGA2017-master\Shared\ASF.Entities\obj\Debug\ASF.Entities.dll
-C:\Users\facun\Desktop\MCGA2017-master\Shared\ASF.Entities\obj\Debug\ASF.Entities.pdb
-C:\Users\facun\Desktop\SolutionsLeatherGoods\bin\ASF.Entities.dll
-C:\Users\facun\Desktop\SolutionsLeatherGoods\bin\ASF.Entities.pdb
-C:\Users\facun\Desktop\SolutionsLeatherGoods\Shared\ASF.Entities\obj\Debug\ASF.Entities.dll
-C:\Users\facun\Desktop\SolutionsLeatherGoods\Shared\ASF.Entities\obj\Debug\ASF.Entities.pdb
